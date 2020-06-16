@@ -1,0 +1,20 @@
+.example-form {
+  min-width: 150px;
+  max-width: 60%;
+  width: 100%;
+  margin: auto;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.image-preview{
+  height: 0.5rem;
+  margin-left: 1rem;
+}
+
+.image-preview img{
+  height: 40px;
+}
+
