@@ -56,7 +56,7 @@ export class SignupComponent implements OnInit, OnDestroy {
       primaryContact: new FormControl('',{
         validators: [
           Validators.required,
-          Validators.pattern('[0-9]{10}')
+          Validators.pattern('[0-9]{9}')
         ]
       }),
       avatar: new FormControl('', {
@@ -92,7 +92,7 @@ export class SignupComponent implements OnInit, OnDestroy {
       primaryContact: new FormControl('',{
         validators: [
           Validators.required,
-          Validators.pattern('[0-9]{10}')
+          Validators.pattern('[0-9]{9}')
         ]
       }),
       avatar: new FormControl('', {
